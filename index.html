@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="HidroAqua - Cultivo Hidropônico e Aquaponia como Alternativas Sustentáveis. Conheça tecnologias que revolucionam a agricultura.">
+<title>HidroAqua — Cultivo Hidropônico e Aquaponia Sustentável</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#hero" class="logo" aria-label="HidroAqua">
+      <svg class="logo__icon" viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+        <path d="M20 8 C12 18, 12 26, 20 32 C28 26, 28 18, 20 8 Z" fill="currentColor" opacity="0.85"/>
+        <path d="M14 22 q6 -6 12 0" stroke="#fff" stroke-width="1.5" fill="none"/>
+      </svg>
+      <span class="logo__text">Hidro<strong>Aqua</strong></span>
+    </a>
+    <nav class="nav" id="nav">
+      <ul class="nav__list">
+        <li><a href="#oque" class="nav__link">O Que São</a></li>
+        <li><a href="#vantagens" class="nav__link">Vantagens</a></li>
+        <li><a href="#desvantagens" class="nav__link">Desafios</a></li>
+        <li><a href="#comparacao" class="nav__link">Comparação</a></li>
+        <li><a href="#como" class="nav__link">Como Funciona</a></li>
+        <li><a href="#simulador" class="nav__link">Simulador</a></li>
+        <li><a href="#noticias" class="nav__link">Notícias</a></li>
+        <li><a href="#quiz" class="nav__link">Quiz</a></li>
+      </ul>
+    </nav>
+    <div class="header__actions">
+      <button id="themeToggle" class="theme-toggle" aria-label="Alternar tema">
+        <span class="theme-toggle__icon">🌙</span>
+      </button>
+      <button id="menuToggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="hero" class="hero">
+  <div class="hero__bg"></div>
+  <div class="hero__overlay"></div>
+  <div class="container hero__content">
+    <span class="hero__badge">🌱 Tecnologia + Sustentabilidade</span>
+    <h1 class="hero__title">O futuro da agricultura <span>cresce na água.</span></h1>
+    <p class="hero__subtitle">Hidroponia e Aquaponia: sistemas inteligentes que produzem alimentos com até <strong>70–90% menos água</strong> que a agricultura convencional, sem solo e sem agrotóxicos.</p>
+    <div class="hero__actions">
+      <a href="#oque" class="btn btn--primary">Explorar as Tecnologias</a>
+      <a href="#simulador" class="btn btn--ghost">Calcular Economia</a>
+    </div>
+    <div class="hero__stats">
+      <div class="stat"><span class="stat__num" data-count="90">0</span><span class="stat__suf">%</span><p>menos água (aquaponia)</p></div>
+      <div class="stat"><span class="stat__num" data-count="70">0</span><span class="stat__suf">%</span><p>menos água (hidroponia)</p></div>
+      <div class="stat"><span class="stat__num" data-count="2">0</span><span class="stat__suf">x</span><p>mais produção por m²</p></div>
+    </div>
+  </div>
+  <div class="hero__scroll" aria-hidden="true"><span></span></div>
+</section>
+
+<!-- O QUE SÃO -->
+<section id="oque" class="section reveal">
+  <div class="container">
+    <header class="section__head">
+      <span class="eyebrow">01 — Conceitos</span>
+      <h2 class="section__title">O Que São?</h2>
+      <p class="section__lead">Duas técnicas revolucionárias que dispensam o solo e usam a água como meio principal de cultivo.</p>
+    </header>
+    <div class="grid grid--2">
+      <article class="card card--feature">
+        <div class="card__media"><img src="img/hidroponia.png" alt="Sistema hidropônico com tubos brancos e plantas verdes" loading="lazy"></div>
+        <div class="card__body">
+          <span class="tag tag--green">Hidroponia</span>
+          <h3>Agricultura sem solo</h3>
+          <p>Sistema de cultivo onde as plantas se desenvolvem <strong>sem a necessidade de terra</strong>. As raízes ficam imersas na água ou em um substrato inerte (fibra de coco, argila expandida ou perlita), recebendo uma <strong>solução nutritiva balanceada</strong> com todos os macros e micronutrientes necessários.</p>
+        </div>
+      </article>
+      <article class="card card--feature">
+        <div class="card__media"><img src="img/aquaponia.png" alt="Sistema de aquaponia integrando peixes e plantas" loading="lazy"></div>
+        <div class="card__body">
+          <span class="tag tag--blue">Aquaponia</span>
+          <h3>Sustentabilidade em ciclo fechado</h3>
+          <p>Combina a <strong>hidroponia</strong> com a <strong>aquicultura</strong> (criação de peixes ou camarões) em um único sistema de recirculação. Os dejetos dos peixes alimentam as plantas; as plantas filtram a água de volta para os peixes.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- VANTAGENS -->
+<section id="vantagens" class="section section--alt reveal">
+  <div class="container">
+    <header class="section__head">
+      <span class="eyebrow">02 — Pontos fortes</span>
+      <h2 class="section__title">Vantagens</h2>
+      <p class="section__lead">Comparativo direto entre os benefícios de cada sistema.</p>
+    </header>
+    <div class="grid grid--2">
+      <div class="panel">
+        <h3 class="panel__title"><span class="dot dot--green"></span> Hidroponia</h3>
+        <ul class="checklist">
+          <li><strong>Economia de água:</strong> consome até 70% menos água que a agricultura convencional.</li>
+          <li><strong>Crescimento acelerado:</strong> nutrientes diretos na raiz, colheita mais rápida.</li>
+          <li><strong>Otimização de espaço:</strong> cultivo vertical, ideal para áreas urbanas.</li>
+          <li><strong>Menos pragas e doenças:</strong> ausência de terra reduz fungos e insetos.</li>
+          <li><strong>Controle total da nutrição:</strong> ajuste exato dos nutrientes em cada fase.</li>
+          <li><strong>Produção o ano todo:</strong> protegido em estufas contra clima extremo.</li>
+          <li><strong>Trabalho limpo e ergonômico:</strong> bancadas suspensas, sem capinar.</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3 class="panel__title"><span class="dot dot--blue"></span> Aquaponia</h3>
+        <ul class="checklist">
+          <li><strong>Economia de água:</strong> até 90% menos em circuito fechado.</li>
+          <li><strong>Produção dupla:</strong> vegetais e peixes no mesmo espaço.</li>
+          <li><strong>Sem produtos químicos:</strong> nutrição natural vinda dos peixes.</li>
+          <li><strong>Crescimento rápido:</strong> oferta constante de nutrientes e oxigênio.</li>
+          <li><strong>Sustentabilidade:</strong> não gera resíduos poluentes nem erosão.</li>
+          <li><strong>Ocupação de espaço:</strong> quintais, estufas, áreas pequenas.</li>
+          <li><strong>Trabalho mais fácil:</strong> elimina o esforço físico pesado.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DESVANTAGENS -->
+<section id="desvantagens" class="section reveal">
+  <div class="container">
+    <header class="section__head">
+      <span class="eyebrow">03 — Desafios</span>
+      <h2 class="section__title">Desvantagens</h2>
+      <p class="section__lead">Toda tecnologia tem seu preço. Veja os principais desafios de cada sistema.</p>
+    </header>
+    <div class="grid grid--2">
+      <div class="panel panel--warn">
+        <h3 class="panel__title"><span class="dot dot--green"></span> Hidroponia</h3>
+        <ul class="warnlist">
+          <li><strong>Alto custo inicial:</strong> bombas, tubulações, medidores e estruturas.</li>
+          <li><strong>Dependência de energia:</strong> sem eletricidade, as plantas secam rapidamente.</li>
+          <li><strong>Exigência técnica:</strong> monitoramento constante de pH e nutrientes.</li>
+          <li><strong>Rápida propagação de doenças:</strong> um fungo pode contaminar todo o sistema.</li>
+          <li><strong>Manutenção constante:</strong> limpeza para evitar algas e entupimentos.</li>
+        </ul>
+      </div>
+      <div class="panel panel--warn">
+        <h3 class="panel__title"><span class="dot dot--blue"></span> Aquaponia</h3>
+        <ul class="warnlist">
+          <li><strong>Complexidade em dobro:</strong> domina-se botânica e piscicultura juntas.</li>
+          <li><strong>Custo inicial alto:</strong> tanques, filtros biológicos, aeradores.</li>
+          <li><strong>Equilíbrio delicado:</strong> depende de bactérias benéficas — se elas morrem, o sistema colapsa.</li>
+          <li><strong>Dependência extrema de energia:</strong> queda de luz pode asfixiar os peixes em horas.</li>
+          <li><strong>Restrição de tratamentos:</strong> nada de defensivos nas plantas, nada de remédios fortes nos peixes.</li>
+          <li><strong>Gasto contínuo com ração:</strong> alimentação dos peixes é custo recorrente.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARAÇÃO -->
+<section id="comparacao" class="section section--alt reveal">
+  <div class="container">
+    <header class="section__head">
+      <span class="eyebrow">04 — Tabela interativa</span>
+      <h2 class="section__title">Solo × Hidroponia × Aquaponia</h2>
+      <p class="section__lead">Passe o mouse pelas linhas para destacar o critério.</p>
+    </header>
+    <div class="table-wrap">
+      <table class="compare">
+        <thead>
+          <tr><th>Critério</th><th>Solo Tradicional</th><th>Hidroponia</th><th>Aquaponia</th></tr>
+        </thead>
+        <tbody>
+          <tr><td data-l="Critério"><b>Consumo de Água</b></td><td data-l="Solo">Alto (muita perda por evaporação)</td><td data-l="Hidroponia">Baixo (economiza até 70%)</td><td data-l="Aquaponia">Muito baixo (economiza até 90%)</td></tr>
+          <tr><td><b>Velocidade de Crescimento</b></td><td>Regular / Lenta</td><td>Rápida (nutrientes direto na raiz)</td><td>Rápida (nutrientes orgânicos constantes)</td></tr>
+          <tr><td><b>Custo Inicial</b></td><td>Baixo</td><td>Médio / Alto</td><td>Alto / Muito Alto</td></tr>
+          <tr><td><b>Uso de Fertilizantes</b></td><td>Químicos ou Orgânicos</td><td>Sais Minerais Sintéticos</td><td>Dejetos dos Peixes (Orgânico)</td></tr>
+          <tr><td><b>Facilidade de Manejo</b></td><td>Fácil / Tradicional</td><td>Médio (controle químico)</td><td>Difícil (controle biológico)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- COMO FUNCIONA -->
+<section id="como" class="section reveal">
+  <div class="container">
+    <header class="section__head">
+      <span class="eyebrow">05 — Em funcionamento</span>
+      <h2 class="section__title">Como funciona o ciclo da Aquaponia</h2>
+      <p class="section__lead">Um ecossistema fechado onde cada elemento alimenta o próximo.</p>
+    </header>
+    <div class="cycle">
+      <div class="cycle__media"><img src="img/ciclo.png" alt="Diagrama do ciclo aquapônico" loading="lazy"></div>
+      <ol class="cycle__steps">
+        <li><span class="step__num">1</span><div><h4>Peixes alimentados</h4><p>Os peixes consomem ração e liberam dejetos ricos em amônia na água.</p></div></li>
+        <li><span class="step__num">2</span><div><h4>Bactérias transformam</h4><p>Bactérias nitrificantes convertem a amônia em nitrito e depois em nitrato — nutriente essencial das plantas.</p></div></li>
+        <li><span class="step__num">3</span><div><h4>Plantas absorvem</h4><p>A água nutritiva sobe até as bancadas e as raízes absorvem nitrato e minerais para crescer.</p></div></li>
+        <li><span class="step__num">4</span><div><h4>Água filtrada retorna</h4><p>Limpa pelas plantas, a água volta ao tanque dos peixes. O ciclo recomeça — quase sem perdas.</p></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- SIMULADOR -->
+<section id="simulador" class="section section--alt reveal">
+  <div class="container">
+    <header class="section__head">
+      <span class="eyebrow">06 — Calculadora</span>
+      <h2 class="section__title">Quanto de água você economizaria?</h2>
+      <p class="section__lead">Informe o tamanho da sua horta e descubra o impacto.</p>
+    </header>
+    <div class="simulator">
+      <div class="simulator__form">
+        <label for="area">Tamanho da horta (m²)</label>
+        <input type="number" id="area" min="1" max="10000" value="20">
+        <label for="sistema">Sistema escolhido</label>
+        <select id="sistema">
+          <option value="0.70">Hidroponia (~70% economia)</option>
+          <option value="0.90">Aquaponia (~90% economia)</option>
+        </select>
+        <button id="calcular" class="btn btn--primary">Calcular Economia</button>
+        <small style="display:block;margin-top:.75rem;color:var(--c-text-soft);font-size:.78rem">* Estimativa baseada em ~300 L/m²/mês para hortaliças em irrigação convencional (média aproximada — varia por cultura e clima). Fonte: HidroGood / UNESP.</small>
+      </div>
+      <div class="simulator__result" id="resultado">
+        <div class="result__card"><span class="result__label">Consumo tradicional</span><strong id="rTrad">—</strong><small>litros/mês</small></div>
+        <div class="result__card result__card--hl"><span class="result__label">Seu novo consumo</span><strong id="rNovo">—</strong><small>litros/mês</small></div>
+        <div class="result__card result__card--hl"><span class="result__label">Economia</span><strong id="rEcon">—</strong><small>litros/mês 💧</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NOTÍCIAS -->
+<section id="noticias" class="section reveal">
+  <div class="container">
+    <header class="section__head">
+      <span class="eyebrow">07 — Fique por dentro</span>
+      <h2 class="section__title">Notícias Reais</h2>
+      <p class="section__lead">Acompanhe os avanços recentes da hidroponia e aquaponia no Brasil e no mundo.</p>
+    </header>
+    <div class="news-grid" id="newsGrid"></div>
+  </div>
+</section>
+
+<!-- QUIZ -->
+<section id="quiz" class="section section--alt reveal">
+  <div class="container">
+    <header class="section__head">
+      <span class="eyebrow">08 — Teste seus conhecimentos</span>
+      <h2 class="section__title">Quiz Educativo</h2>
+      <p class="section__lead">8 perguntas. Veja sua pontuação no final!</p>
+    </header>
+    <div class="quiz" id="quiz">
+      <div class="quiz__progress"><div class="quiz__bar" id="quizBar"></div></div>
+      <div class="quiz__body" id="quizBody"></div>
+      <div class="quiz__nav">
+        <span id="quizCount" class="quiz__count">1 / 8</span>
+        <span id="quizScore" class="quiz__score">Pontos: 0</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div>
+      <a href="#hero" class="logo logo--light">
+        <svg class="logo__icon" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 8 C12 18, 12 26, 20 32 C28 26, 28 18, 20 8 Z" fill="currentColor" opacity="0.85"/></svg>
+        <span class="logo__text">Hidro<strong>Aqua</strong></span>
+      </a>
+      <p class="footer__about">Tecnologia + sustentabilidade = futuro da agricultura. Projeto educativo desenvolvido por Eduarda para o programa Agrinho 2026.</p>
+    </div>
+    <div>
+      <h4>Navegação</h4>
+      <ul>
+        <li><a href="#oque">O Que São</a></li>
+        <li><a href="#vantagens">Vantagens</a></li>
+        <li><a href="#comparacao">Comparação</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Referências</h4>
+      <ul>
+        <li><a href="https://www.embrapa.br/en/busca-de-noticias/-/noticia/38956116/agricultura-e-uma-aliada-no-uso-e-conservacao-dagua" target="_blank" rel="noopener">Embrapa — Aquaponia e economia de água</a></li>
+        <li><a href="https://hidrogood.com.br/artigos/hidroponia/sustentabilidade-no-sistema-hidroponico/" target="_blank" rel="noopener">HidroGood — Sustentabilidade hidropônica</a></li>
+        <li><a href="https://www.noticiasagricolas.com.br/noticias/hortifruti/404499-producao-hidroponica-ganha-espaco-e-ja-ocupa-ate-tres-mil-hectares-no-brasil.html" target="_blank" rel="noopener">Notícias Agrícolas — Hidroponia no Brasil</a></li>
+        <li><a href="https://faespsenar.com.br/agrishow-2024-certificacao-para-produtos-de-aquaponia-e-lancada-no-estande-da-faesp-senar-sp/" target="_blank" rel="noopener">FAESP/SENAR-SP — Selo Aquapônicos do Brasil</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom"><div class="container">© 2026 HidroAqua — Todos os direitos reservados.</div></div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal" id="modal" aria-hidden="true">
+  <button class="modal__close" id="modalClose" aria-label="Fechar">×</button>
+  <img id="modalImg" src="" alt="">
+</div>
+
+<!-- BACK TO TOP -->
+<button id="toTop" class="to-top" aria-label="Voltar ao topo">↑</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
