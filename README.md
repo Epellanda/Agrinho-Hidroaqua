@@ -22,10 +22,9 @@ Apresentar de forma didática, moderna e interativa duas das tecnologias mais pr
 │   └── script.js
 ├── img/
 │   ├── hero.jpg
-│   ├── hidroponia.jpg
-│   ├── aquaponia.jpg
-│   ├── ciclo.jpg
-│   ├── gal1.jpg ... gal4.jpg
+│   ├── hidroponia.png
+│   ├── aquaponia.png
+│   ├── ciclo.png
 └── README.md
 ```
 
