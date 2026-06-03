@@ -8,9 +8,7 @@ Apresentar de forma didática, moderna e interativa duas das tecnologias mais pr
 ## 🛠 Tecnologias Utilizadas
 - **HTML5** semântico e acessível
 - **CSS3** com variáveis, Flexbox, CSS Grid e media queries (mobile-first)
-- **JavaScript puro** (vanilla, sem frameworks ou bibliotecas externas)
-- `localStorage` para persistência do tema
-- `IntersectionObserver` para animações suaves
+- **JavaScript**
 
 ## 📂 Estrutura
 ```
