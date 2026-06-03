@@ -31,12 +31,8 @@ Apresentar de forma didática, moderna e interativa duas das tecnologias mais pr
 
 ## ▶️ Como rodar
 Não há build nem dependências. Basta:
-1. Baixar a pasta do projeto.
-2. Abrir `index.html` no navegador (duplo clique) **ou** servir localmente:
-   ```bash
-   python3 -m http.server 8000
-   ```
-3. Acessar `http://localhost:8000`.
+Clicar no link do GitHub Pages
+Ou acessar https://epellanda.github.io/Agrinho-Hidroaqua/
 
 ## ✨ Funcionalidades Implementadas
 - ✅ Header fixo com menu responsivo (hambúrguer mobile)
@@ -45,12 +41,11 @@ Não há build nem dependências. Basta:
 - ✅ **Quiz educativo** com 8 perguntas, pontuação e feedback visual
 - ✅ **Simulador** — calculadora de economia de água por m²
 - ✅ **Modo Escuro / Claro** com persistência via `localStorage`
-- ✅ **Contadores animados** (95%, 30%, 2x)
-- ✅ **Galeria com modal** (lightbox)
+- ✅ **Contadores animados** (90%, 30%, 2x)
 - ✅ **Animações fade-in** ao rolar
 - ✅ **Smooth scroll** entre seções
 - ✅ **Botão "Voltar ao Topo"** flutuante
-- ✅ Tabela comparativa interativa
+- ✅ Tabela comparativa
 - ✅ Totalmente **responsivo** (mobile, tablet, desktop)
 - ✅ Footer com referências e navegação
 
@@ -61,4 +56,4 @@ Paleta inspirada em água e sustentabilidade:
 - Verde escuro `#0d4f4a`
 - Neutros claros `#f4f8f7`
 
-**Mensagem central:** Tecnologia + sustentabilidade = futuro da agricultura.
+Projeto feito por Eduarda Pellanda. 
